@@ -16,5 +16,6 @@
     "strictPropertyInitialization": false,
     "noFallthroughCasesInSwitch": true,
     "useUnknownInCatchVariables": false,
+    "paths": {}
   }
 }
