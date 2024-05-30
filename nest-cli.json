@@ -18,6 +18,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/gateway/tsconfig.app.json"
       }
+    },
+    "common-mongodb": {
+      "type": "library",
+      "root": "common/mongodb",
+      "entryFile": "index",
+      "sourceRoot": "common/mongodb/src",
+      "compilerOptions": {
+        "tsConfigPath": "common/mongodb/tsconfig.lib.json"
+      }
     }
   }
 }
