@@ -36,6 +36,42 @@
       "compilerOptions": {
         "tsConfigPath": "common/rabbitmq/tsconfig.lib.json"
       }
+    },
+    "api-user-query": {
+      "type": "library",
+      "root": "apps/user/api-user-query",
+      "entryFile": "index",
+      "sourceRoot": "apps/user/api-user-query/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/user/api-user-query/tsconfig.lib.json"
+      }
+    },
+    "app-user-query": {
+      "type": "application",
+      "root": "apps/user/user-query",
+      "entryFile": "main",
+      "sourceRoot": "apps/user/user-query/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/user/user-query/tsconfig.app.json"
+      }
+    },
+    "common-user": {
+      "type": "library",
+      "root": "common/user",
+      "entryFile": "index",
+      "sourceRoot": "common/user/src",
+      "compilerOptions": {
+        "tsConfigPath": "common/user/tsconfig.lib.json"
+      }
+    },
+    "core-user": {
+      "type": "library",
+      "root": "core/user",
+      "entryFile": "index",
+      "sourceRoot": "core/user/src",
+      "compilerOptions": {
+        "tsConfigPath": "core/user/tsconfig.lib.json"
+      }
     }
   }
 }

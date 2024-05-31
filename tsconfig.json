@@ -23,6 +23,18 @@
       "@common/rabbitmq": [
         "common/rabbitmq/src"
       ],
+      "@api/user-query": [
+        "apps/user/api-user-query/src"
+      ],
+      "#user-query/*": [
+        "apps/user/user-query/src/*"
+      ],
+      "@common/user": [
+        "common/user/src"
+      ],
+      "@core/user": [
+        "core/user/src"
+      ],
     }
   }
 }
