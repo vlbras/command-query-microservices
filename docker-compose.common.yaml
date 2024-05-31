@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:jammy
+    networks:
+      - engl-rush-network
+  rabbitmq:
+    image: rabbitmq:management-alpine
+    networks:
+      - engl-rush-network
+networks:
+  engl-rush-network:
+    name: engl-rush-network
+    driver: bridge
