@@ -20,6 +20,9 @@
       "@common/mongodb": [
         "common/mongodb/src"
       ],
+      "@common/rabbitmq": [
+        "common/rabbitmq/src"
+      ],
     }
   }
 }

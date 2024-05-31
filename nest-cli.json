@@ -27,6 +27,15 @@
       "compilerOptions": {
         "tsConfigPath": "common/mongodb/tsconfig.lib.json"
       }
+    },
+    "common-rabbitmq": {
+      "type": "library",
+      "root": "common/rabbitmq",
+      "entryFile": "index",
+      "sourceRoot": "common/rabbitmq/src",
+      "compilerOptions": {
+        "tsConfigPath": "common/rabbitmq/tsconfig.lib.json"
+      }
     }
   }
 }
